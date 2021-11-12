@@ -50,7 +50,7 @@
 - (void)setIndex:(NSInteger)index
 {
     _index = index;
-    self.sortLabel.text = [NSString stringWithFormat:@"%ld",index];
+    self.sortLabel.text = [NSString stringWithFormat:@"%ld",(long)index];
 }
 
 

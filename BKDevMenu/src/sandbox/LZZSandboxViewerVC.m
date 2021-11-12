@@ -63,11 +63,11 @@
                 id value = [df volatileDomainForName:domainName];
                 NSLog(@"%@",value);
             }
-            cell.firstLineLabel.text = [NSString stringWithFormat:@"NSUserDefaults(additional %ld)",(indexPath.row - self.list.count)];
+            cell.firstLineLabel.text = [NSString stringWithFormat:@"NSUserDefaults(additional %ld)",(long)(indexPath.row - self.list.count)];
             
             dict = df.dictionaryRepresentation;
         }
-        cell.secondLineLabel.text = [NSString stringWithFormat:@"%ld keys/values",dict.allKeys.count];
+        cell.secondLineLabel.text = [NSString stringWithFormat:@"%ld keys/values",(long)dict.allKeys.count];
         return cell;
     }
     

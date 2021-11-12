@@ -45,11 +45,11 @@
                 
             }else if ([value isKindOfClass:[NSArray class]]){
                 info.className = @"NSArray";
-                info.valueDetail = [NSString stringWithFormat:@"%ld items",((NSArray *)value).count];
+                info.valueDetail = [NSString stringWithFormat:@"%ld items",(long)((NSArray *)value).count];
                 info.objClass = LSBObjectClassArray;
             }else if ([value isKindOfClass:[NSDictionary class]]){
                 info.className = @"NSDictionary";
-                info.valueDetail =[NSString stringWithFormat:@"%ld keys/values",((NSDictionary *)value).allKeys.count];
+                info.valueDetail =[NSString stringWithFormat:@"%ld keys/values",(long)((NSDictionary *)value).allKeys.count];
                 info.objClass = LSBObjectClassDictionary;
             }else if([value isKindOfClass:[NSData class]]){
                 info.className = @"NSData";
@@ -70,7 +70,7 @@
             }else if ([value isKindOfClass:[UIImage class]]){
                 info.className = @"UIImage";
                 NSData * imgData = UIImagePNGRepresentation(value);
-                info.valueDetail = [NSString stringWithFormat:@"%ld bytes",imgData.length];
+                info.valueDetail = [NSString stringWithFormat:@"%ld bytes",(long)imgData.length];
                 info.objClass = LSBObjectClassImage;
             }else{
                 

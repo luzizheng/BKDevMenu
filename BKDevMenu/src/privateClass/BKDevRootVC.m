@@ -150,7 +150,7 @@
                 [cell.segControl setTitleTextAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"PingFangSC-Regular" size:13],NSForegroundColorAttributeName:[UIColor darkGrayColor]} forState:UIControlStateNormal];
                 [cell.segControl setTitleTextAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"PingFangSC-SemiBold" size:14],NSForegroundColorAttributeName:[UIColor blackColor]} forState:UIControlStateSelected];
                 [cell.segControl addTarget:self action:@selector(segAction:) forControlEvents:UIControlEventValueChanged];
-                cell.segControl.accessibilityLabel = [NSString stringWithFormat:@"%ld",indexPath.row];
+                cell.segControl.accessibilityLabel = [NSString stringWithFormat:@"%ld",(long)indexPath.row];
                 [cell.contentView addSubview:cell.segControl];
                 
             }
