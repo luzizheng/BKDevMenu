@@ -87,7 +87,7 @@ pod 'BKDevMenu', :configurations => ['Debug']
     [self addTestSegmentWithTitle:@"切换服务器" segments:@[@"测试",@"生产",@"仿真"] defaultIndex:^NSInteger{
             return 1;
         } segAction:^(NSInteger index, UINavigationController * _Nonnull nav) {
-            [nav pushViewController:[TestVC new] animated:YES];
+            // 根据index自行实现切换逻辑
     }];
     ```
 
