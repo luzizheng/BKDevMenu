@@ -9,7 +9,7 @@
 #import "TestVC.h"
 
 @implementation BKDevMenu
-- (void)addTestPages
+- (void)addingTestPages
 {
     [self addTestPageWithTitle:@"测试页面1" andAction:^(UINavigationController * _Nonnull nav) {
         [nav pushViewController:[TestVC new] animated:YES];

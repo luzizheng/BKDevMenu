@@ -1,6 +1,16 @@
 # BKDevMenu
 iOS App调试菜单入口
 
+#### 自带功能有：
+
+1. 查看app控制台
+2. 查看app沙盒文件浏览器；
+3. 全局快速切换环境按钮（UISegmentContrller）；
+4. 测试页面快速预览入口；
+5. 快速登陆模块（配置快速登陆名单）
+
+
+
 ## Installation:
 
 ```ruby

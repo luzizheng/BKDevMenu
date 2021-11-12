@@ -21,12 +21,12 @@
 - (instancetype)init
 {
     if (self = [super init]) {
-        [self addTestPages];
+        [self addingTestPages];
     }
     return self;
 }
 
--(void)addTestPages{
+-(void)addingTestPages{
     
 }
 
