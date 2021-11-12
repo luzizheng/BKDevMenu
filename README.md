@@ -34,7 +34,7 @@ pod 'BKDevMenu', :configurations => ['Debug']
 ```objective-c
 #import "BKDevMenuManager.h"
 [BKDevMenuManager shareManager].enable = YES;
-[[BKDevMenuManager shareManager] setupMenu:[BKDevMenu new]];
+[[BKDevMenuManager shareManager] setupMenu:[DemoMenu new]];
 ```
 
 - #### 添加测试入口
