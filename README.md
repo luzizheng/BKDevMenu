@@ -9,7 +9,7 @@ iOS App调试菜单入口
 4. 测试页面快速预览入口；
 5. 快速登陆模块（配置快速登陆名单）
 
-![](guide01.gif)
+![](guide01.png)
 
 ## Installation:
 
