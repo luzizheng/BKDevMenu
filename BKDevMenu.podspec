@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "BKDevMenu"
   spec.version      = "1.0.1"
-  spec.summary      = "百科app端调试菜单入口"
+  spec.summary      = "app端调试菜单入口"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   # spec.description  = <<-DESC
   #                  DESC
 
-  spec.homepage     = "http://192.168.1.30/luzizheng/BKDevMenu"
+  spec.homepage     = "https://github.com/luzizheng/BKDevMenu"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://192.168.1.30/luzizheng/BKDevMenu.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/luzizheng/BKDevMenu.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
