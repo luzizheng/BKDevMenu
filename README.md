@@ -1,5 +1,5 @@
 # BKDevMenu
-iOS App调试菜单入口
+iOS App调试菜单入口 (始终在app的最上层的一个dev按钮)
 
 #### 自带功能有：
 
