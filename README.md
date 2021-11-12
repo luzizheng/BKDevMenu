@@ -9,7 +9,7 @@ pod 'BKDevMenu'
 
 
 
-仅在百科DEBUG模式下导入(不增加生产包大小)
+仅在DEBUG模式下导入(不增加生产包大小)
 
 ```ruby
 pod 'BKDevMenu', :configurations => ['Debug']
