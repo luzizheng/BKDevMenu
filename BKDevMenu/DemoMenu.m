@@ -1,14 +1,16 @@
 //
-//  BKDevMenu.m
+//  DemoMenu.m
 //  BKDevMenu
 //
-//  Created by luzz on 2021/11/3.
+//  Created by luzz on 2021/11/12.
 //
 
-#import "BKDevMenu.h"
+#import "DemoMenu.h"
 #import "TestVC.h"
 
-@implementation BKDevMenu
+
+
+@implementation DemoMenu
 - (void)addingTestPages
 {
     [self addTestPageWithTitle:@"测试页面1" andAction:^(UINavigationController * _Nonnull nav) {

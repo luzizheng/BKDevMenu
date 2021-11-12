@@ -18,6 +18,7 @@
     self.title = @"Index";
     self.view.backgroundColor = [UIColor whiteColor];
     
+    /// 随便插入一点用户偏好数据
     
     NSString * imgPath = @"/Users/apple/Downloads/123.jpeg";
     NSData * data = [NSData dataWithContentsOfFile:imgPath];

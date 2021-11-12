@@ -14,6 +14,7 @@
 		186961692735238400AF7F1B /* LSBObjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186961682735238400AF7F1B /* LSBObjectCell.m */; };
 		1869616C2738BB8A00AF7F1B /* LSBBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869616B2738BB8A00AF7F1B /* LSBBaseCell.m */; };
 		1869616F2738C08100AF7F1B /* LSBCocoaClsBrowserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869616E2738C08100AF7F1B /* LSBCocoaClsBrowserVC.m */; };
+		18CB7131273E48B30027BD42 /* DemoMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB7130273E48B30027BD42 /* DemoMenu.m */; };
 		18DDB13F273221CA000D3C8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDB13E273221CA000D3C8D /* AppDelegate.m */; };
 		18DDB145273221CA000D3C8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDB144273221CA000D3C8D /* ViewController.m */; };
 		18DDB148273221CA000D3C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DDB146273221CA000D3C8D /* Main.storyboard */; };
@@ -22,7 +23,6 @@
 		18DDB150273221CB000D3C8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDB14F273221CB000D3C8D /* main.m */; };
 		18DDB1642732289B000D3C8D /* BKDevMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDB1632732289B000D3C8D /* BKDevMenuManager.m */; };
 		18DDB167273228CC000D3C8D /* BKBaseDevMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDB166273228CC000D3C8D /* BKBaseDevMenu.m */; };
-		18DDB16A27322A7E000D3C8D /* BKDevMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDB16927322A7E000D3C8D /* BKDevMenu.m */; };
 		18DDB16D27322C02000D3C8D /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDB16C27322C02000D3C8D /* TestVC.m */; };
 		18DDB17127322D29000D3C8D /* BKDevMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDB17027322D29000D3C8D /* BKDevMenuItem.m */; };
 		18DDB17427322E44000D3C8D /* BKDevRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDB17327322E44000D3C8D /* BKDevRootVC.m */; };
@@ -57,6 +57,8 @@
 		1869616B2738BB8A00AF7F1B /* LSBBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSBBaseCell.m; sourceTree = "<group>"; };
 		1869616D2738C08100AF7F1B /* LSBCocoaClsBrowserVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSBCocoaClsBrowserVC.h; sourceTree = "<group>"; };
 		1869616E2738C08100AF7F1B /* LSBCocoaClsBrowserVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSBCocoaClsBrowserVC.m; sourceTree = "<group>"; };
+		18CB712F273E48B30027BD42 /* DemoMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoMenu.h; sourceTree = "<group>"; };
+		18CB7130273E48B30027BD42 /* DemoMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoMenu.m; sourceTree = "<group>"; };
 		18DDB13A273221CA000D3C8D /* BKDevMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKDevMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DDB13D273221CA000D3C8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18DDB13E273221CA000D3C8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,8 +73,6 @@
 		18DDB1632732289B000D3C8D /* BKDevMenuManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKDevMenuManager.m; sourceTree = "<group>"; };
 		18DDB165273228CC000D3C8D /* BKBaseDevMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKBaseDevMenu.h; sourceTree = "<group>"; };
 		18DDB166273228CC000D3C8D /* BKBaseDevMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKBaseDevMenu.m; sourceTree = "<group>"; };
-		18DDB16827322A7E000D3C8D /* BKDevMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKDevMenu.h; sourceTree = "<group>"; };
-		18DDB16927322A7E000D3C8D /* BKDevMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKDevMenu.m; sourceTree = "<group>"; };
 		18DDB16B27322C02000D3C8D /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
 		18DDB16C27322C02000D3C8D /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 		18DDB16F27322D29000D3C8D /* BKDevMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKDevMenuItem.h; sourceTree = "<group>"; };
@@ -170,8 +170,8 @@
 				18DDB144273221CA000D3C8D /* ViewController.m */,
 				18DDB16B27322C02000D3C8D /* TestVC.h */,
 				18DDB16C27322C02000D3C8D /* TestVC.m */,
-				18DDB16827322A7E000D3C8D /* BKDevMenu.h */,
-				18DDB16927322A7E000D3C8D /* BKDevMenu.m */,
+				18CB712F273E48B30027BD42 /* DemoMenu.h */,
+				18CB7130273E48B30027BD42 /* DemoMenu.m */,
 				18DDB156273221FA000D3C8D /* src */,
 				18DDB146273221CA000D3C8D /* Main.storyboard */,
 				18DDB149273221CB000D3C8D /* Assets.xcassets */,
@@ -326,7 +326,6 @@
 				18DDB1992732826E000D3C8D /* LSBHelper.m in Sources */,
 				18EE564C273BA67D0094B085 /* BKQuickLoginListVC.m in Sources */,
 				18DDB19C2732826E000D3C8D /* LSBUploadFileVC.m in Sources */,
-				18DDB16A27322A7E000D3C8D /* BKDevMenu.m in Sources */,
 				18DDB1972732826E000D3C8D /* LSBFileManager.m in Sources */,
 				18DDB19E2732826E000D3C8D /* LZZSandboxViewerVC.m in Sources */,
 				18DDB17127322D29000D3C8D /* BKDevMenuItem.m in Sources */,
@@ -341,6 +340,7 @@
 				18DDB13F273221CA000D3C8D /* AppDelegate.m in Sources */,
 				186961662735232E00AF7F1B /* LSBKeyValueCell.m in Sources */,
 				1869616F2738C08100AF7F1B /* LSBCocoaClsBrowserVC.m in Sources */,
+				18CB7131273E48B30027BD42 /* DemoMenu.m in Sources */,
 				1869616C2738BB8A00AF7F1B /* LSBBaseCell.m in Sources */,
 				18DDB1A02732826E000D3C8D /* LSBFileDetailVC.m in Sources */,
 				186961422733B2B100AF7F1B /* BKDevTransformView.m in Sources */,

@@ -7,8 +7,8 @@
 
 #import "AppDelegate.h"
 #import "BKDevMenuManager.h"
-#import "BKDevMenu.h"
-#import "BKQuickLoginEditVC.h"
+#import "DemoMenu.h"
+
 @interface AppDelegate ()
 
 @end
@@ -19,12 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [BKDevMenuManager shareManager].enable = YES;
-    [[BKDevMenuManager shareManager] setupMenu:[BKDevMenu new]];
+    [[BKDevMenuManager shareManager] setupMenu:[DemoMenu new]];
     
-//    UIWindow * window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-//    window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[BKQuickLoginEditVC new]];
-//    self.window = window;
-//    [window makeKeyWindow];
     
     return YES;
 }
