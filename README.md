@@ -39,17 +39,17 @@ pod 'BKDevMenu', :configurations => ['Debug']
 
 - #### 添加测试入口
 
-  1. 创建一个类继承BKBaseDevMenu
+  - 创建一个类继承BKBaseDevMenu
 
      ```objective-c
-     @interface BKDevMenu : BKBaseDevMenu
+     @interface DemoMenu : BKBaseDevMenu
      
      @end
      ```
 
      
 
-  2. .m文件中引入并添加一些测试页面
+  - .m文件中引入并添加一些测试页面
 
      ```objective-c
      #import "BKDevMenu.h"
@@ -59,7 +59,7 @@ pod 'BKDevMenu', :configurations => ['Debug']
      #import "TestVC3.h"
      
      @implementation BKDevMenu
-     - (void)addTestPages
+     - (void)addingTestPages
      {
          [self addTestPageWithTitle:@"测试页面1" andAction:^(UINavigationController * _Nonnull nav) {
              [nav pushViewController:[TestVC1 new] animated:YES];
@@ -76,4 +76,44 @@ pod 'BKDevMenu', :configurations => ['Debug']
      ```
 
      
+  
+     
+  
+- #### 额外自带能力(在addingTestPages方法内添加)
+
+  - 添加全局切换状态模块
+
+    ```objective-c
+    [self addTestSegmentWithTitle:@"切换服务器" segments:@[@"测试",@"生产",@"仿真"] defaultIndex:^NSInteger{
+            return 1;
+        } segAction:^(NSInteger index, UINavigationController * _Nonnull nav) {
+            [nav pushViewController:[TestVC new] animated:YES];
+    }];
+    ```
+
+    
+
+  - 添加沙盒文件浏览器模块
+
+    ```objective-c
+    [self addSandBoxViewer:nil];
+    ```
+
+    
+
+  - 添加app内置控制台模块
+
+    ```objective-c
+    [self addAppConsole];
+    ```
+
+    
+
+  - 添加快速登陆模块
+
+    ```objective-c
+    [self addQuickLoginUserListWithLoginAction:^(UINavigationController * _Nonnull nav, BKDevQuickLoginUserModel * _Nonnull user) {
+            // 具体实现登陆的逻辑
+        }];
+    ```
 
