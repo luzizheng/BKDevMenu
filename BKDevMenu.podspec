@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BKDevMenu"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "app端调试菜单入口"
 
   # This description is used to generate tags and improve search results.
@@ -97,7 +97,7 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios, '9.0'
   spec.requires_arc = true
-  spec.frameworks  = "UIKit", "AVFoundation"
+  spec.frameworks  = "UIKit"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -112,18 +112,18 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'privateClass' do |ss|
     ss.source_files = "BKDevMenu/src/privateClass/*.{h,m}"
-    ss.frameworks  = "UIKit", "AVFoundation"
+    ss.frameworks  = "UIKit"
   end
 
   spec.subspec 'sandbox' do |ss|
     ss.source_files = "BKDevMenu/src/sandbox/*.{h,m}"
-    ss.frameworks  = "UIKit", "AVFoundation"
+    ss.frameworks  = "UIKit"
     ss.resources = 'BKDevMenu/src/sandbox/LSBResources.bundle'
   end
 
   spec.subspec 'console' do |ss|
     ss.source_files = "BKDevMenu/src/console/*.{h,m}"
-    ss.frameworks  = "UIKit", "AVFoundation"
+    ss.frameworks  = "UIKit"
     ss.resources = 'BKDevMenu/src/console/BKConsoleResources.bundle'
   end
 
