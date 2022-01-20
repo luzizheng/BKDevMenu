@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BKDevMenu"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.3"
   spec.summary      = "app端调试菜单入口"
 
   # This description is used to generate tags and improve search results.
